@@ -1,0 +1,437 @@
+OMP: Info #277: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+      Test ID:  Ver:  ...  DRR direct +: DRR direct -:
+0            1     1  ...              0           NaN
+1            2     1  ...              0           NaN
+2            3     1  ...              0           NaN
+3            4     1  ...              0           NaN
+4            5     1  ...              0           NaN
+...        ...   ...  ...            ...           ...
+5395      5396     1  ...              0           NaN
+5396      5397     1  ...              0           NaN
+5397      5398     1  ...              0           NaN
+5398      5399     1  ...              0           NaN
+5399      5400     1  ...              0           NaN
+
+[5400 rows x 33 columns]
+/data2/new_wzd/1000Hz/RIR_Data/Speech/
+resultFilename: /data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv
+加载一条rir的时间是:0.6482391357421875
+[]
+读取15条语音的时间是:20.718157052993774
+['1', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '1', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['1', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '1', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['2', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '2', '0.000000', '0.000000', '0.000000', '0.703000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['2', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '2', '0.000000', '0.000000', '0.000000', '0.703000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['3', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '3', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['3', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '3', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['4', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '4', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['4', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '4', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['5', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '5', '0.000000', '0.000000', '0.000000', '0.710500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['5', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '5', '0.000000', '0.000000', '0.000000', '0.710500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['6', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '6', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['6', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '6', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['7', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '7', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['7', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '7', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['8', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '8', '0.000000', '0.000000', '0.000000', '0.527500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['8', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '8', '0.000000', '0.000000', '0.000000', '0.527500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['9', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '9', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['9', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '9', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['10', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '10', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['10', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '10', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['11', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '11', '0.000000', '0.000000', '0.000000', '0.326000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['11', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '11', '0.000000', '0.000000', '0.000000', '0.326000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['12', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '12', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['12', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '12', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['13', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '13', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['13', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '13', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['14', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '14', '0.000000', '0.000000', '0.000000', '0.425500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['14', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '14', '0.000000', '0.000000', '0.000000', '0.425500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['15', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '15', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['15', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '15', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['16', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '16', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['16', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '16', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['17', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '17', '0.000000', '0.000000', '0.000000', '0.390000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['17', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '17', '0.000000', '0.000000', '0.000000', '0.390000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['18', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '18', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['18', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '18', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['19', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '19', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['19', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '19', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['20', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '20', '0.000000', '0.000000', '0.000000', '0.356500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['20', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '20', '0.000000', '0.000000', '0.000000', '0.356500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['21', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '21', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['21', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '21', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['22', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '22', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['22', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '22', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['23', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '23', '0.000000', '0.000000', '0.000000', '0.352500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['23', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '23', '0.000000', '0.000000', '0.000000', '0.352500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['24', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '24', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['24', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '24', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['25', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '25', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['25', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '25', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['26', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '26', '0.000000', '0.000000', '0.000000', '0.312500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['26', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '26', '0.000000', '0.000000', '0.000000', '0.312500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['27', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '27', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['27', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '27', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['28', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '28', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['28', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '28', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['29', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '29', '0.000000', '0.000000', '0.000000', '0.152500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['29', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '29', '0.000000', '0.000000', '0.000000', '0.152500', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+['30', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '30', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+<_io.TextIOWrapper name='/data2/new_wzd/1000Hz/modif_output_wav/Dev/Speech/arthur-sykes-rymer-auditorium-university-york/20221230T174625_test_gen_corpus_dataset_results.csv' mode='a' encoding='UTF-8'> ['30', '1', '16000', 's1r4_2', 'arthur-sykes-rymer-auditorium-university-york', '1', '30', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', '0.000000', 'Unknown_arthur-sykes-rymer-auditorium-university-york_s1r4_2_<talker>_<utter>_<noise>_<SNR>dB.wav']
+加载timit时间0.5224902629852295
+0.003210724296353956 0.0016912105908224793 1.3778522901574248
+all use time: 0.041014671325683594
+写入文件用时：0.16493439674377441
+0.003210724296353956 0.0016912105908224793 0.4357151516176664
+all use time: 0.008311986923217773
+写入文件用时：0.22179651260375977
+0.003210724296353956 0.0016912105908224793 0.13778522901574247
+all use time: 0.008081436157226562
+写入文件用时：0.18942785263061523
+0.003210724296353956 0.00013936396280701956 4.7998345081676845
+all use time: 0.008514642715454102
+写入文件用时：0.18863654136657715
+0.003210724296353956 0.00013936396280701956 1.5178409437683948
+all use time: 0.008074283599853516
+写入文件用时：0.18823957443237305
+0.003210724296353956 0.00013936396280701956 0.4799834508167684
+all use time: 0.008867263793945312
+写入文件用时：0.16309809684753418
+0.003210724296353956 1.2420912836366307e-05 16.07773070586145
+all use time: 0.008579730987548828
+写入文件用时：0.17972064018249512
+0.003210724296353956 1.2420912836366307e-05 5.084224863734884
+all use time: 0.008918523788452148
+写入文件用时：0.19176506996154785
+0.003210724296353956 1.2420912836366307e-05 1.6077730705861446
+all use time: 0.008912086486816406
+写入文件用时：0.20496535301208496
+0.003210724296353956 0.002263823894313551 1.1909134152550898
+all use time: 0.008662939071655273
+写入文件用时：0.20468688011169434
+0.003210724296353956 0.002263823894313551 0.3765998888255999
+all use time: 0.008084535598754883
+写入文件用时：0.20614027976989746
+0.003210724296353956 0.002263823894313551 0.11909134152550899
+all use time: 0.016185760498046875
+写入文件用时：0.17215442657470703
+0.003210724296353956 3.7974976184078294e-05 9.195021565602973
+all use time: 0.00841975212097168
+写入文件用时：0.21888160705566406
+0.003210724296353956 3.7974976184078294e-05 2.9077211281672755
+all use time: 0.016468286514282227
+写入文件用时：0.15898871421813965
+0.003210724296353956 3.7974976184078294e-05 0.9195021565602973
+all use time: 0.007993936538696289
+写入文件用时：0.21846842765808105
+0.003210724296353956 5.047146723765594e-07 79.75878731565965
+all use time: 0.00841069221496582
+写入文件用时：0.23441672325134277
+0.003210724296353956 5.047146723765594e-07 25.22194313304316
+all use time: 0.016353368759155273
+写入文件用时：0.2718222141265869
+0.003210724296353956 5.047146723765594e-07 7.975878731565964
+all use time: 0.01640939712524414
+写入文件用时：0.22746825218200684
+0.003210724296353956 5.956074920909308e-06 23.217819533295643
+all use time: 0.00875234603881836
+写入文件用时：0.20321106910705566
+0.003210724296353956 5.956074920909308e-06 7.342119202796184
+all use time: 0.015974044799804688
+写入文件用时：0.22236037254333496
+0.003210724296353956 5.956074920909308e-06 2.3217819533295643
+all use time: 0.008079051971435547
+写入文件用时：0.2395181655883789
+0.003210724296353956 0.00018784851924509457 4.1342584167734655
+all use time: 0.008420944213867188
+写入文件用时：0.18644952774047852
+0.003210724296353956 0.00018784851924509457 1.307367303272582
+all use time: 0.039180755615234375
+写入文件用时：0.14038372039794922
+0.003210724296353956 0.00018784851924509457 0.41342584167734653
+all use time: 0.017019987106323242
+写入文件用时：0.1594846248626709
+0.003210724296353956 0.00027204179491700445 3.4354504688850835
+all use time: 0.008675575256347656
+写入文件用时：0.2275528907775879
+0.003210724296353956 0.00027204179491700445 1.0863848270370284
+all use time: 0.01658177375793457
+写入文件用时：0.18824148178100586
+0.003210724296353956 0.00027204179491700445 0.3435450468885084
+all use time: 0.016438722610473633
+写入文件用时：0.23474621772766113
+0.003210724296353956 0.00013980463388095035 4.792263880630286
+all use time: 0.008656978607177734
+写入文件用时：0.2122042179107666
+0.003210724296353956 0.00013980463388095035 1.5154469011348979
+all use time: 0.016451358795166016
+写入文件用时：0.16600775718688965
+0.003210724296353956 0.00013980463388095035 0.47922638806302864
+all use time: 0.016707897186279297
+写入文件用时：0.16764140129089355
+0.003210724296353956 0.0012500468899657269 1.602648772568707
+all use time: 0.00865316390991211
+写入文件用时：0.17714166641235352
+0.003210724296353956 0.0012500468899657269 0.5068020410590296
+all use time: 0.01656317710876465
+写入文件用时：0.16755986213684082
+0.003210724296353956 0.0012500468899657269 0.16026487725687072
+all use time: 0.016556978225708008
+写入文件用时：0.16239690780639648
+0.003210724296353956 0.002295499263969444 1.1826682239784105
+all use time: 0.008618354797363281
+写入文件用时：0.18108654022216797
+0.003210724296353956 0.002295499263969444 0.3739925304077941
+all use time: 0.016461610794067383
+写入文件用时：0.19977760314941406
+0.003210724296353956 0.002295499263969444 0.11826682239784106
+all use time: 0.01640152931213379
+写入文件用时：0.222930908203125
+0.003210724296353956 0.000128692528343817 4.994877488822551
+all use time: 0.008649826049804688
+写入文件用时：0.2039339542388916
+0.003210724296353956 0.000128692528343817 1.5795189498181486
+all use time: 0.008199453353881836
+写入文件用时：0.1917862892150879
+0.003210724296353956 0.000128692528343817 0.49948774888225506
+all use time: 0.008236408233642578
+写入文件用时：0.1756289005279541
+0.003210724296353956 1.7659240859412293e-06 42.63983271583567
+all use time: 0.008504152297973633
+写入文件用时：0.19540143013000488
+0.003210724296353956 1.7659240859412293e-06 13.483899043060392
+all use time: 0.008142948150634766
+写入文件用时：0.18483924865722656
+0.003210724296353956 1.7659240859412293e-06 4.263983271583567
+all use time: 0.00862884521484375
+写入文件用时：0.09333515167236328
+0.003210724296353956 1.272152459928168e-06 50.237951949760244
+all use time: 0.008818864822387695
+写入文件用时：0.08433365821838379
+0.003210724296353956 1.272152459928168e-06 15.886635314333931
+all use time: 0.007334470748901367
+写入文件用时：0.08572554588317871
+0.003210724296353956 1.272152459928168e-06 5.0237951949760244
+all use time: 0.0072214603424072266
+写入文件用时：0.08660578727722168
+加载timit时间0.627483606338501
+0.0037048810629145583 0.0016912105908224793 1.4800905658037231
+all use time: 0.05284261703491211
+写入文件用时：0.09877181053161621
+0.0037048810629145583 0.0016912105908224793 0.468045733126709
+all use time: 0.00676727294921875
+写入文件用时：0.06912469863891602
+0.0037048810629145583 0.0016912105908224793 0.1480090565803723
+all use time: 0.006602048873901367
+写入文件用时：0.08705615997314453
+0.0037048810629145583 0.00013936396280701956 5.155987926794723
+all use time: 0.006959676742553711
+写入文件用时：0.0693972110748291
+0.0037048810629145583 0.00013936396280701956 1.6304665437000831
+all use time: 0.006833553314208984
+写入文件用时：0.06113481521606445
+0.0037048810629145583 0.00013936396280701956 0.5155987926794724
+all use time: 0.006365776062011719
+写入文件用时：0.07062101364135742
+0.0037048810629145583 1.2420912836366307e-05 17.27071741090587
+all use time: 0.006927013397216797
+写入文件用时：0.061110496520996094
+0.0037048810629145583 1.2420912836366307e-05 5.46148038435887
+all use time: 0.006401538848876953
+写入文件用时：0.06995654106140137
+0.0037048810629145583 1.2420912836366307e-05 1.727071741090587
+all use time: 0.006381988525390625
+写入文件用时：0.061641693115234375
+0.0037048810629145583 0.002263823894313551 1.2792806044592484
+all use time: 0.006818532943725586
+写入文件用时：0.07022523880004883
+0.0037048810629145583 0.002263823894313551 0.40454404765681823
+all use time: 0.006384372711181641
+写入文件用时：0.07826638221740723
+0.0037048810629145583 0.002263823894313551 0.12792806044592483
+all use time: 0.006373882293701172
+写入文件用时：0.061676740646362305
+0.0037048810629145583 3.7974976184078294e-05 9.877303081635702
+all use time: 0.006899595260620117
+写入文件用时：0.07839846611022949
+0.0037048810629145583 3.7974976184078294e-05 3.1234774877768867
+all use time: 0.006431102752685547
+写入文件用时：0.061647891998291016
+0.0037048810629145583 3.7974976184078294e-05 0.9877303081635701
+all use time: 0.0064465999603271484
+写入文件用时：0.06150007247924805
+0.0037048810629145583 5.047146723765594e-07 85.67698402008376
+all use time: 0.007431507110595703
+写入文件用时：0.07787775993347168
+0.0037048810629145583 5.047146723765594e-07 27.09344125573141
+all use time: 0.006421327590942383
+写入文件用时：0.06995058059692383
+0.0037048810629145583 5.047146723765594e-07 8.567698402008377
+all use time: 0.006341457366943359
+写入文件用时：0.061747074127197266
+0.0037048810629145583 5.956074920909308e-06 24.94060930568836
+all use time: 0.006762027740478516
+写入文件用时：0.06956362724304199
+0.0037048810629145583 5.956074920909308e-06 7.886913163836589
+all use time: 0.006362199783325195
+写入文件用时：0.07070279121398926
+0.0037048810629145583 5.956074920909308e-06 2.494060930568836
+all use time: 0.006335020065307617
+写入文件用时：0.06999731063842773
+0.0037048810629145583 0.00018784851924509457 4.441025299280748
+all use time: 0.0067975521087646484
+写入文件用时：0.06956720352172852
+0.0037048810629145583 0.00018784851924509457 1.4043755092158101
+all use time: 0.006708860397338867
+写入文件用时：0.07026815414428711
+0.0037048810629145583 0.00018784851924509457 0.44410252992807486
+all use time: 0.006344318389892578
+写入文件用时：0.07004308700561523
+0.0037048810629145583 0.00027204179491700445 3.6903649720695637
+all use time: 0.006789207458496094
+写入文件用时：0.08589363098144531
+0.0037048810629145583 0.00027204179491700445 1.1669958709043486
+all use time: 0.008377790451049805
+写入文件用时：0.0760796070098877
+0.0037048810629145583 0.00027204179491700445 0.36903649720695636
+all use time: 0.0063703060150146484
+写入文件用时：0.06232404708862305
+0.0037048810629145583 0.00013980463388095035 5.147855549706585
+all use time: 0.007374286651611328
+写入文件用时：0.0690162181854248
+0.0037048810629145583 0.00013980463388095035 1.6278948602610945
+all use time: 0.006334066390991211
+写入文件用时：0.061678409576416016
+0.0037048810629145583 0.00013980463388095035 0.5147855549706585
+all use time: 0.006384849548339844
+写入文件用时：0.09075236320495605
+0.0037048810629145583 0.0012500468899657269 1.7215672140769478
+all use time: 0.00677800178527832
+写入文件用时：0.0612490177154541
+0.0037048810629145583 0.0012500468899657269 0.5444073541553847
+all use time: 0.0063207149505615234
+写入文件用时：0.07004690170288086
+0.0037048810629145583 0.0012500468899657269 0.17215672140769478
+all use time: 0.006313800811767578
+写入文件用时：0.062384843826293945
+0.0037048810629145583 0.002295499263969444 1.2704236102015651
+all use time: 0.0075225830078125
+写入文件用时：0.06889033317565918
+0.0037048810629145583 0.002295499263969444 0.40174322014908703
+all use time: 0.006353616714477539
+写入文件用时：0.06165266036987305
+0.0037048810629145583 0.002295499263969444 0.1270423610201565
+all use time: 0.006384611129760742
+写入文件用时：0.06228375434875488
+0.0037048810629145583 0.000128692528343817 5.3655033281593525
+all use time: 0.006803989410400391
+写入文件用时：0.09462404251098633
+0.0037048810629145583 0.000128692528343817 1.696721131019741
+all use time: 0.006372213363647461
+写入文件用时：0.06995105743408203
+0.0037048810629145583 0.000128692528343817 0.5365503328159353
+all use time: 0.006311893463134766
+写入文件用时：0.06179666519165039
+0.0037048810629145583 1.7659240859412293e-06 45.80375892320553
+all use time: 0.006746530532836914
+写入文件用时：0.0618281364440918
+0.0037048810629145583 1.7659240859412293e-06 14.48442035945909
+all use time: 0.0063130855560302734
+写入文件用时：0.061751365661621094
+0.0037048810629145583 1.7659240859412293e-06 4.580375892320553
+all use time: 0.006518363952636719
+写入文件用时：0.06149029731750488
+0.0037048810629145583 1.272152459928168e-06 53.96566762439054
+all use time: 0.006795406341552734
+写入文件用时：0.08730506896972656
+0.0037048810629145583 1.272152459928168e-06 17.06544251446822
+all use time: 0.006314992904663086
+写入文件用时：0.15869712829589844
+0.0037048810629145583 1.272152459928168e-06 5.396566762439054
+all use time: 0.006339311599731445
+写入文件用时：0.17438054084777832
+加载timit时间0.6546518802642822
+0.0016079208646060195 0.0016912105908224793 0.9750648267530461
+all use time: 0.03893017768859863
+写入文件用时：0.25075364112854004
+0.0016079208646060195 0.0016912105908224793 0.30834257188571085
+all use time: 0.00813746452331543
+写入文件用时：0.20520257949829102
+0.0016079208646060195 0.0016912105908224793 0.09750648267530461
+all use time: 0.007968425750732422
+写入文件用时：0.22823596000671387
+0.0016079208646060195 0.00013936396280701956 3.396699222828225
+all use time: 0.009033203125
+写入文件用时：0.2309708595275879
+0.0016079208646060195 0.00013936396280701956 1.0741306070660992
+all use time: 0.008607864379882812
+写入文件用时：0.19038891792297363
+0.0016079208646060195 0.00013936396280701956 0.3396699222828225
+all use time: 0.008046150207519531
+写入文件用时：0.20904135704040527
+0.0016079208646060195 1.2420912836366307e-05 11.37772881554799
+all use time: 0.016587257385253906
+写入文件用时：0.20038938522338867
+0.0016079208646060195 1.2420912836366307e-05 3.5979537656861442
+all use time: 0.008082866668701172
+写入文件用时：0.1984255313873291
+0.0016079208646060195 1.2420912836366307e-05 1.137772881554799
+all use time: 0.014925003051757812
+写入文件用时：0.19066166877746582
+0.0016079208646060195 0.002263823894313551 0.8427737800478664
+all use time: 0.008291959762573242
+写入文件用时：0.19966721534729004
+0.0016079208646060195 0.002263823894313551 0.26650846972210274
+all use time: 0.008484601974487305
+写入文件用时：0.20645499229431152
+0.0016079208646060195 0.002263823894313551 0.08427737800478664
+all use time: 0.007986068725585938
+写入文件用时：0.19110941886901855
+0.0016079208646060195 3.7974976184078294e-05 6.507041555833838
+all use time: 0.007842779159545898
+写入文件用时：0.1829543113708496
+0.0016079208646060195 3.7974976184078294e-05 2.057707214580064
+all use time: 0.008357048034667969
+写入文件用时：0.1734161376953125
+0.0016079208646060195 3.7974976184078294e-05 0.6507041555833838
+all use time: 0.008078813552856445
+写入文件用时：0.19099783897399902
+0.0016079208646060195 5.047146723765594e-07 56.44290661017895
+all use time: 0.007998466491699219
+写入文件用时：0.2538154125213623
+0.0016079208646060195 5.047146723765594e-07 17.848814264833905
+all use time: 0.008210420608520508
+写入文件用时：0.23680853843688965
+0.0016079208646060195 5.047146723765594e-07 5.644290661017895
+all use time: 0.008070230484008789
+写入文件用时：0.337862491607666
+0.0016079208646060195 5.956074920909308e-06 16.430555976526215
+all use time: 0.01640939712524414
+写入文件用时：0.2322244644165039
+0.0016079208646060195 5.956074920909308e-06 5.195798010871489
+all use time: 0.0164034366607666
+写入文件用时：0.20570898056030273
+0.0016079208646060195 5.956074920909308e-06 1.6430555976526213
+all use time: 0.016243457794189453
+写入文件用时：0.22693109512329102
+0.0016079208646060195 0.00018784851924509457 2.925690943579275
+all use time: 0.008490800857543945
+写入文件用时：0.15581512451171875
+0.0016079208646060195 0.00018784851924509457 0.9251847111437688
+all use time: 0.008082151412963867
+写入文件用时：0.14353609085083008
+0.0016079208646060195 0.00018784851924509457 0.2925690943579275
+all use time: 0.017995119094848633
+写入文件用时：0.17867779731750488
+0.0016079208646060195 0.00027204179491700445 2.4311654741157915
+all use time: 0.018285751342773438
+写入文件用时：0.16065621376037598
+0.0016079208646060195 0.00027204179491700445 0.7688020266969035
+all use time: 0.008905172348022461
+写入文件用时：0.19409894943237305
+0.0016079208646060195 0.00027204179491700445 0.24311654741157918
+all use time: 0.008757352828979492
+写入文件用时：0.24048089981079102
+0.0016079208646060195 0.00013980463388095035 3.3913417163081894
+all use time: 0.00836324691772461
+写入文件用时：0.19737815856933594

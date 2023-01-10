@@ -1,1 +1,0 @@
-nohup sh  new_conv_wav.sh >> /data2/new_wzd/1000Hz/modif_code/Aug_2022_12_30.log 2>&1 &
